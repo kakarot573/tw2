@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'keyes WiKi'
-copyright = 'keyes , WiKi'
-author = 'keyes WiKi'
+project = 'TwinCode WiKi'
+copyright = 'TwinCode , WiKi'
+author = 'TwinCode WiKi'
 
 # -- General configuration ---------------------------------------------------
 
@@ -65,6 +65,17 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    'collapse_navigation': False,
+    'navigation_depth': 4,
+    'sticky_navigation': True,
+    'sidebar_includehidden': False,
+    'sidebar_width': '250px',
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_nav_header_background': "#07f1c2",  # 导航栏背景色
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

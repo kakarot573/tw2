@@ -1,7 +1,7 @@
 
 .. toctree::
    :maxdepth: 3
-   :caption: keyes docs
+   :caption: TwinCode docs
 
    README.md
    docs/1. KidsBlock软件安装说明书--Windows.md
